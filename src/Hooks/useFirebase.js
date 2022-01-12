@@ -5,6 +5,7 @@ const useFirebase = () => {
         const [user, setUser] = useState({});
         const auth = getAuth();
 
+        // Sign In With Google:
         const signInUsingGoogle = () => {
                 const googleProvider = new GoogleAuthProvider();
 
